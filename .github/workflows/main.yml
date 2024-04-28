@@ -3,7 +3,7 @@ name: go-imap-assassin lint, test and build
 on:
   push:
     branches:
-      - '*'
+      - '*' 
     paths-ignore:
       - 'docker/rspamd-go-imap-assassin/**'
   pull_request:
